@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0M7zO4y25xwx1Jv4/A6NwUCZtK4xyjENbTbT+mo9Ffxr58hzxg2jc7z0y1u3etN" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="static/index.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="mt-5">Weather App</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <form id="weatherForm">
+                    <div class="mb-3">
+                        <label for="cityInput" class="form-label">Enter City:</label>
+                        <input type="text" class="form-control" id="cityInput" name="city" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Get Weather</button>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <div id="weatherInfo"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS (opcional) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-RnJsx1OV7Tm+aAeWtN2Sr68F3s+Z5tcX3PTPtpbz5T+7Jw+jUk3GqKemlgttf/EV"
+        crossorigin="anonymous"></script>
+    <!-- Custom JS -->
+    <script src="static/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+/* Estilos personalizados */
+
+/* Estilos para el contenedor principal */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para el formulario */
+#weatherForm {
+    margin-bottom: 20px;
+}
+
+/* Estilos para el botón */
+.btn-primary {
+    width: 100%;
+}
+
+/* Estilos para el espacio de información meteorológica */
+#weatherInfo {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin-top: 20px;
+}
